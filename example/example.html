@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="example.css">
 </head>
 <body>
-    <label for="teamOptions">select a team</label>
-    <select id="teamOptions"></select>
-    
-    <button type="button" onclick="displayTeamInfo()">Click me</button>
+    <form action="">
+        <label for="teamOptions">Select A Team</label>
+        <select id="teamOptions">
+            <option value="">Select A Team</option>
+        </select>
+    </form>
+    <button type="submit" onclick="displayTeamInfo()">Click me</button>
     <div id="teamInfo"></div>
+    <div id="teamImage"></div>
     <script src="example.js"></script>
-    
 </body>
 </html>
